@@ -10,7 +10,7 @@
 #### - Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
 #### - Revise como utilizar el valor de pi usando import math y math.pi
 
-```
+```python 
 import math
 
 def calcular_volumen(r1: float, r2: float, h: float) -> float:
@@ -45,7 +45,7 @@ if __name__ == "__main__":
 #### -Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b.
 #### -Revise como utilizar el valor de pi usando import math y math.pi
 
-```
+```python 
 import math
 
 def calcular_area(a: float, b: float, r: float) -> float:
@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
 #### 3. Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 
-```
+```python 
 def calcular_carne_aves(n: int, m: int, k: int) -> int:
     return n * 6 + m * 7 + k * 1
 
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
 #### 4 Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
 
-```
+```python 
 def calcular_prestamo_compuesto(c: float, i: float, n: int) -> float:
     return c * (1 + i)**n
 
@@ -111,7 +111,7 @@ if __name__ == "__main__":
 #### -La potencia del mayor número elevado al menor número
 #### -La raíz cúbica del menor número
 
-```
+```python 
 import math
 
 def promedio(numeros: list) -> float:
